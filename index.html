@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KX76XF8R');</script>
+<!-- End Google Tag Manager -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Algoritmos y estructuras de datos</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Ordenar, buscar, grafos y complejidad, con animaciones que se ejecutan paso a paso: análisis asintótico, divide y vencerás, tablas hash, árboles balanceados, montículos, recorridos y caminos mínimos, algoritmos voraces, programación dinámica y búsqueda en cadenas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400;1,8..60,600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KX76XF8R"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="wrap" data-page="index">
+<header class="topbar"><a class="brand" href="index.html"><b>Algoritmos</b> y estructuras de datos</a><span class="eyebrow">Curso visual e interactivo · Computación</span><a class="al-sitio" href="https://aaramirez.github.io/">← Todos los cursos</a></header>
+<div class="layout">
+<nav class="toc" id="toc" aria-label="Ruta de aprendizaje"></nav>
+<main>
+
+<header class="hero">
+  <span class="eyebrow">Curso visual e interactivo · Computación</span>
+  <h1>Algoritmos que se ejecutan frente a ti, paso a paso</h1>
+  <p class="lede">Un buscador responde en milisegundos, un mapa encuentra la ruta más corta entre millones de calles y una tienda ordena su catálogo antes de que termines de escribir. Detrás hay unas pocas ideas que se repiten: dividir el problema, guardar lo que ya se calculó, elegir bien la estructura de datos. Este curso las presenta con animaciones que puedes pausar, rebobinar y alimentar con tus propios datos, y demuestra por qué cada algoritmo es correcto y cuánto tarda.</p>
+</header>
+
+<section>
+  <h2>Cómo usar este curso</h2>
+  <div class="prose">
+    <p><b>Estado.</b> El curso está en preparación. La <a href="temario.html">tabla de contenido</a> ya tiene los 14 capítulos con sus secciones y sus laboratorios, y está en revisión.</p>
+    <p><b>Para quién es.</b> Para estudiantes de computación y para quien ya programa y quiere dejar de adivinar por qué un código es lento. Conviene saber programar en algún lenguaje (los ejemplos están en Python y en pseudocódigo) y manejar la inducción, las recurrencias y la teoría de grafos de Matemáticas discretas, donde se demuestra el teorema maestro. Lo que sigue a este curso (análisis amortizado a fondo, algoritmos aleatorizados, flujo, aproximación) está en Algoritmos avanzados.</p>
+    <p><b>Cómo está hecho.</b> Una tienda en línea recorre el curso: su catálogo se ordena y se busca, sus productos se guardan en tablas hash y en árboles, su buscador autocompleta con un *trie*, sus recomendaciones salen de un grafo, sus repartos siguen caminos mínimos y su presupuesto de publicidad se reparte con programación dinámica. Cada algoritmo tiene un visualizador que se ejecuta paso a paso, con un contador de operaciones al lado, y un medidor que compara el tiempo real con la curva que predice el análisis.</p>
+  </div>
+</section>
+
+<details class="stage" id="temario" open><summary><h2><span class="pn">Empieza aquí</span> Tabla de contenido</h2></summary>
+  <div class="mods">
+    <a class="mod" href="temario.html"><span class="n">≡</span><b>Tabla de contenido</b><p>Cada capítulo con sus secciones y sus laboratorios.</p></a>
+  </div>
+</details>
+
+<details class="stage" id="parte-1" open><summary><h2><span class="pn">Parte 1</span> Medir y dividir</h2><span class="cuenta" data-etapa-cuenta="1"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="que-es-un-algoritmo"><span class="n">01</span><b>Qué es un algoritmo y cómo se mide</b><p>Corrección con invariantes, el modelo de costo y la notación O, Ω y Θ para comparar algoritmos sin cronómetro.</p></div>
+    <div class="mod soon" data-id="divide-y-venceras"><span class="n">02</span><b>Recursión y divide y vencerás</b><p>Partir, resolver y combinar: mergesort, Karatsuba, el par de puntos más cercano y cómo se analizan con recurrencias.</p></div>
+    <div class="mod soon" data-id="ordenamiento"><span class="n">03</span><b>Ordenamiento</b><p>Inserción, mergesort, quicksort y heapsort, la cota inferior por comparaciones y los ordenamientos lineales.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-2" open><summary><h2><span class="pn">Parte 2</span> Estructuras de datos</h2><span class="cuenta" data-etapa-cuenta="2"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="estructuras-lineales"><span class="n">04</span><b>Arreglos, listas, pilas y colas</b><p>Tipos abstractos de datos y sus implementaciones: arreglos dinámicos, listas enlazadas, pilas, colas y deques.</p></div>
+    <div class="mod soon" data-id="tablas-hash"><span class="n">05</span><b>Tablas hash</b><p>Buscar en tiempo constante esperado: funciones hash, colisiones, encadenamiento, direccionamiento abierto y redimensionado.</p></div>
+    <div class="mod soon" data-id="arboles-de-busqueda"><span class="n">06</span><b>Árboles binarios de búsqueda y árboles balanceados</b><p>Recorridos, árboles binarios de búsqueda, rotaciones, árboles AVL y rojinegros, y el *trie* del autocompletado.</p></div>
+    <div class="mod soon" data-id="monticulos"><span class="n">07</span><b>Montículos y colas de prioridad</b><p>El montículo binario en un arreglo, subir y hundir, heapsort, construir en tiempo lineal y los problemas de los k mejores.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-3" open><summary><h2><span class="pn">Parte 3</span> Grafos</h2><span class="cuenta" data-etapa-cuenta="3"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="recorrer-grafos"><span class="n">08</span><b>Representar y recorrer grafos</b><p>Listas y matrices de adyacencia, búsqueda en anchura y en profundidad, orden topológico y componentes fuertemente conexas.</p></div>
+    <div class="mod soon" data-id="caminos-minimos"><span class="n">09</span><b>Caminos mínimos</b><p>Dijkstra, Bellman-Ford, Floyd-Warshall y A*, con sus demostraciones de corrección y su costo.</p></div>
+    <div class="mod soon" data-id="arboles-generadores"><span class="n">10</span><b>Árboles generadores mínimos y unión-búsqueda</b><p>Conectar todo al menor costo con Kruskal y Prim, la propiedad del corte y la estructura de unión-búsqueda.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-4" open><summary><h2><span class="pn">Parte 4</span> Diseñar algoritmos</h2><span class="cuenta" data-etapa-cuenta="4"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="algoritmos-voraces"><span class="n">11</span><b>Algoritmos voraces</b><p>Elegir lo mejor de cada momento y demostrar que no se pierde nada: selección de actividades, códigos de Huffman y el argumento de intercambio.</p></div>
+    <div class="mod soon" data-id="programacion-dinamica"><span class="n">12</span><b>Programación dinámica</b><p>Subproblemas que se repiten: memoización, tablas, la mochila, la distancia de edición y la subsecuencia común más larga.</p></div>
+    <div class="mod soon" data-id="busqueda-en-cadenas"><span class="n">13</span><b>Búsqueda en cadenas</b><p>Encontrar un patrón en un texto: fuerza bruta, Rabin-Karp con *hash* rodante, KMP y Boyer-Moore.</p></div>
+    <div class="mod soon" data-id="problemas-dificiles"><span class="n">14</span><b>Cuando no hay algoritmo rápido: búsqueda exhaustiva y NP-completitud</b><p>*Backtracking*, ramificación y poda, la frontera entre P y NP y qué hacer frente a un problema NP-completo.</p></div>
+  </div>
+</details>
+
+
+
+<nav class="pager" id="pager" aria-label="Capítulo anterior y siguiente"></nav>
+</main>
+</div>
+<footer><span>Curso abierto de aaramirez.github.io.</span><span>Sitio publicado: <a href="https://github.com/aaramirez/algoritmos" target="_blank" rel="noopener">github.com/aaramirez/algoritmos</a></span></footer>
+</div>
+<script src="assets/lab.js"></script>
+</body>
+</html>
