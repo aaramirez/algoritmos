@@ -21,4 +21,4 @@ Este repositorio solo tiene el sitio generado. El curso está en preparación: l
 | 11 | Algoritmos voraces |
 | 12 | Programación dinámica |
 | 13 | Búsqueda en cadenas |
-| 14 | Cuando no hay algoritmo rápido: búsqueda exhaustiva y NP-completitud |
+| 14 | Cuando no hay algoritmo rápido: búsqueda exhaustiva, *backtracking* y poda |
